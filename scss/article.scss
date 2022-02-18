@@ -1,0 +1,132 @@
+
+
+
+
+section {
+    display: flex;
+    align-items: center;
+    .text {
+      
+      padding: 50px;
+      width: 50%;
+    h2{
+        text-align: center;
+    p {
+      text-align: justify;
+      padding: 0 50px;
+      }
+    }
+  }
+}
+.img {
+  width: 55.9%;
+  height: 500px;
+}
+.baner {
+  width: 100%;
+  height: 500px;
+  background: url("../content/bg-masthead.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  
+.form {
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+.field {
+    width: 500px;
+    border-radius: 7px;
+    margin: 5px;
+    padding: 12px;
+  }
+.button-2 {
+        width: 160px;
+         background: #007bff;
+        color: white;
+        border-radius: 10px;
+        margin: 5px;
+        padding: 12px;
+    }
+  }
+}
+.sm-img {
+    display: flex;
+    font-size: 0.8em;
+    justify-content: space-around;
+    padding:150px;
+    background-color: #f8f9fa;
+    color: black;
+    font-family: Verdana;
+    }
+    h1 {
+      margin-bottom: 15px;
+    }
+    .sm-img i{
+      font-size: 40px;
+      padding-bottom: 20px;
+      color: #007bff;
+    }
+.img-1 {
+  background: url("../content/bg-showcase-1.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.img-2 {
+  background: url("../content/bg-showcase-2.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.img-3 {
+  background: url("../content/bg-showcase-3.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+section:nth-of-type(even){
+    flex-direction: row-reverse;
+}
+.face-img {
+  padding-left: 100px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    background-color: #f8f9fa;
+    color: black;
+    font-family: Verdana;
+    }
+    .rewiu{
+        padding: 20px 20px;
+        font-size: 0.8em;
+        align-content: center;
+        justify-content: space-around;
+    }
+.face-1 {
+height: 150px;
+width: 150px;
+  background: url("../content/testimonials-1.jpg");
+  background-size: cover;
+  border-radius: 50% ;
+}
+.face-2 {
+    height: 150px;
+width: 150px;
+  background: url("../content/testimonials-2.jpg");
+  background-size: cover;
+  border-radius: 50% ;
+}
+.face-3 {
+    height: 150px;
+width: 150px;
+  background: url("../content/testimonials-3.jpg");
+  background-size: cover;
+  border-radius: 50% ;
+}

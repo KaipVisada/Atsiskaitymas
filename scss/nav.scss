@@ -1,0 +1,27 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+    background-color: #f8f9fa;
+    color: black;
+    line-height: 50px;
+    text-transform: capitalize;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        color: black;
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 0 20px;
+        }
+      .button { 
+          width: 70px;
+
+        background: #007bff;
+        color: white;
+        border-radius: 7px;
+        margin: 5px;
+
+      }
+}
