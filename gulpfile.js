@@ -10,7 +10,7 @@ gulp.task('serve', gulp.series(function(done) {
             baseDir: "./"
         }
     });
-
+ 
     gulp.watch("scss/*.scss", gulp.series('sass'));
     gulp.watch("*.html").on('change', browserSync.reload);
 

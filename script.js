@@ -13,7 +13,7 @@ for (var x of buttons){
         swiper.slideTo(index, 1000);
     })
 }
-
+ 
 
 swiper.on("slideChange", function(){
     var activeButton = button[swiper.activeIndex];
