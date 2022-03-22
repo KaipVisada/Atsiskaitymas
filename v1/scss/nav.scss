@@ -1,0 +1,97 @@
+/* Nav bar V2 */
+.navigation {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 72px;
+  width: 100%;
+  background: #1c1c1c 0% 0% no-repeat padding-box;
+}
+.nav-logo {
+  position: absolute;
+  top: 10px;
+  left: -220px;
+  width: 119px;
+  height: 52px;
+  background-image: url(../pic/cheshire-county-hygiene-services.png);
+}
+.brand {
+  position: absolute;
+  padding-left: 20px;
+  float: left;
+  line-height: 70px;
+  text-transform: uppercase;
+}
+.nav-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+nav {
+  float: right;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  font-family: Montserrat;
+  font-size: 19px;
+  float: left;
+  position: relative;
+  opacity: 69%;
+}
+nav ul li a,
+nav ul li a:visited {
+  display: block;
+  font-size: 19px;
+  padding: 0 18px;
+  line-height: 70px;
+  background: #1c1c1c 0% 0% no-repeat padding-box;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background: #e27866;
+  height: 5px;
+  color: #fff;
+}
+.nav-mobile {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #262626;
+  height: 70px;
+  width: 70px;
+}
+@media only screen and (max-width: 798px) {
+  .nav-mobile {
+    display: block;
+  }
+  nav {
+    width: 100%;
+    padding: 70px 0 15px;
+  } 
+  nav ul {
+    display: none;
+  }
+  nav ul li {
+    float: none;
+  }
+  nav ul li a {
+    padding: 15px;
+    line-height: 20px;
+  }
+  nav ul li ul li a {
+    padding-left: 30px;
+  }
+  .nav-dropdown {
+    position: static;
+  }
+}
+@media screen and (min-width: 799px) {
+  .nav-list {
+    display: block !important;
+  }
+}

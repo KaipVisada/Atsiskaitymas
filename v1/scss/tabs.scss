@@ -1,0 +1,47 @@
+/* Tabs */
+button {
+  width: 100px;
+  height: 100px;
+  line-height: 50px;
+  background: #e27866;
+  color: white;
+  border: none;
+  margin-top: 30px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+ 
+button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px grey, 0 0 10px grey, 0 0 10px grey;
+}
+
+.active {
+  box-shadow: 0 0 5px grey, 0 0 10px grey, 0 0 10px grey;
+  /* background: red; */
+}
+span #rotate {
+  transform: rotate(90deg);
+}
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .swiper {
+    width: 90%;
+    margin-right: 20px;
+  }
+  .tabs {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tabs button {
+    margin: 15px;
+  }
+}

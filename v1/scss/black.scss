@@ -1,0 +1,68 @@
+/* Kazkokia juoda dalis  */
+.black-part {
+  position: absolute;
+  top: 1679px;
+  left: 0px;
+  height: 596px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-direction: column;
+  background: #1c1c1c;
+}
+.subtext {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  top: 90px;
+  left: 1000px;
+  width: 451px;
+  height: 180px;
+  color: white;
+}
+.subtext h2 {
+  width: 310px;
+  font-size: 30px;
+  padding-bottom: 25px;
+}
+.subtext p {
+  padding-top: 25px;
+  font-size: 14px;
+}
+#skirtukas {
+  width: 200px;
+  height: 2px;
+  background: #e27866;
+}
+.title-icon {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  top: 350px;
+  left: 1000px;
+  width: 550px;
+  height: 180px;
+  color: white;
+} 
+.title-icon img {
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  background: #e27866;
+  border-radius: 50px;
+  padding: 16px;
+  float: left;
+}
+.title-icon h3 {
+  padding-bottom: 10px;
+}
+.img-logo-2 {
+  position: absolute;
+  top: 7px;
+  left: 75px;
+  width: 389px;
+  height: 169px;
+  padding: 200px;
+}
