@@ -1,10 +1,6 @@
 const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
-    loop: true,
-    // autoplay: {
-    //     delay: 2000,
-    // },
-    // speed: 1000,
+    loop: true
 });
 
 var buttons = document.getElementsByClassName("customers-button");
@@ -16,7 +12,6 @@ for (var x of buttons) {
 
         this.classList.add("active");
         var index = this.getAttribute("index");
-        // alert(index);
         swiper.slideTo(index, 1000);
     })
 }
